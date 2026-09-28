@@ -1,7 +1,6 @@
 aid: bids-com
 name: Bids.com
-description: 'Bids.com is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Bids.com operates an online auction marketplace specializing in jewelry, watches, accessories, and collectibles. The platform offers both auction and fixed-price formats, allowing users to bid on items without registration and purchase instantly after winning. With a wide selection ranging from rings and earrings to art and fashion, Bids.com provides products at significant discounts, often over 80% off retail prices. The site includes comprehensive buyer guides, shipping and return policies, and a dedicated support center, reflecting a fully operational e‑commerce experience.'
 url: https://raw.githubusercontent.com/api-evangelist/bids-com/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -11,7 +10,11 @@ specificationVersion: '0.20'
 created: '2026-09-28'
 modified: '2026-09-28'
 tags:
-- Company
+- eCommerce
+- Auctions
+- Jewelry
+- Marketplace
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/bids-com-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/bids-com-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.bids.com/
