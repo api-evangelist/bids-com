@@ -1,0 +1,20 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/bids-com/integrations
+- https://zapier.com/apps/bids/integrations
+- https://n8n.io/integrations/bids-com/
+- https://n8n.io/integrations/bids/
+- https://composio.dev/toolkits/bids-com
+- https://monid.ai/tools/bids-com
+checked:
+- https://composio.dev/toolkits/bids-com
+- https://monid.ai/tools/bids-com
+- https://n8n.io/integrations/bids-com/
+- https://n8n.io/integrations/bids/
+- https://zapier.com/apps/bids-com/integrations
+- https://zapier.com/apps/bids/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
